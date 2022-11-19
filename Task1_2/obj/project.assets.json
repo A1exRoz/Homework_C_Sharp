@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Alexey Rozanov\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GeekBrains\\C#\\Seminar_C#\\Homework_C_Sharp\\Task1_2\\Task1_2.csproj",
+      "projectUniqueName": "C:\\GeekBrains\\Homework_C_Sharp\\Task1_2\\Task1_2.csproj",
       "projectName": "Task1_2",
-      "projectPath": "D:\\GeekBrains\\C#\\Seminar_C#\\Homework_C_Sharp\\Task1_2\\Task1_2.csproj",
-      "packagesPath": "C:\\Users\\Alexey Rozanov\\.nuget\\packages\\",
-      "outputPath": "D:\\GeekBrains\\C#\\Seminar_C#\\Homework_C_Sharp\\Task1_2\\obj\\",
+      "projectPath": "C:\\GeekBrains\\Homework_C_Sharp\\Task1_2\\Task1_2.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\GeekBrains\\Homework_C_Sharp\\Task1_2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alexey Rozanov\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
