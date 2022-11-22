@@ -10,17 +10,17 @@ while ( a == b )
     a = Convert.ToInt32(Console.ReadLine());
     b = Convert.ToInt32(Console.ReadLine());
 }
-if(a > b)
-{
-    Console.Write("Большее число ");
-    Console.WriteLine(a);
-    Console.Write("Меньшее число ");
-    Console.WriteLine(b);
-}
-else
-{
-    Console.Write("Большее число ");
-    Console.WriteLine(b);
-    Console.Write("Меньшее число ");
-    Console.WriteLine(a);
+    if(a > b)
+    {
+        Console.Write("Большее число ");
+        Console.WriteLine(a);
+        Console.Write("Меньшее число ");
+        Console.WriteLine(b);
+    }
+    else
+    {
+        Console.Write("Большее число ");
+        Console.WriteLine(b);
+        Console.Write("Меньшее число ");
+        Console.WriteLine(a);
 }

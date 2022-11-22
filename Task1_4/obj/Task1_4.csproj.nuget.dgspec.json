@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GeekBrains\\C#\\Seminar_C#\\Homework_C_Sharp\\Task1_4\\Task1_4.csproj": {}
+    "D:\\GeekBrains\\C#\\Homework_C_Sharp\\Task1_4\\Task1_4.csproj": {}
   },
   "projects": {
-    "D:\\GeekBrains\\C#\\Seminar_C#\\Homework_C_Sharp\\Task1_4\\Task1_4.csproj": {
+    "D:\\GeekBrains\\C#\\Homework_C_Sharp\\Task1_4\\Task1_4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GeekBrains\\C#\\Seminar_C#\\Homework_C_Sharp\\Task1_4\\Task1_4.csproj",
+        "projectUniqueName": "D:\\GeekBrains\\C#\\Homework_C_Sharp\\Task1_4\\Task1_4.csproj",
         "projectName": "Task1_4",
-        "projectPath": "D:\\GeekBrains\\C#\\Seminar_C#\\Homework_C_Sharp\\Task1_4\\Task1_4.csproj",
+        "projectPath": "D:\\GeekBrains\\C#\\Homework_C_Sharp\\Task1_4\\Task1_4.csproj",
         "packagesPath": "C:\\Users\\Alexey Rozanov\\.nuget\\packages\\",
-        "outputPath": "D:\\GeekBrains\\C#\\Seminar_C#\\Homework_C_Sharp\\Task1_4\\obj\\",
+        "outputPath": "D:\\GeekBrains\\C#\\Homework_C_Sharp\\Task1_4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alexey Rozanov\\AppData\\Roaming\\NuGet\\NuGet.Config"
