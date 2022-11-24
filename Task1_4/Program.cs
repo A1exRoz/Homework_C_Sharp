@@ -18,6 +18,31 @@ else if (c >= a && c >= b)
 Console.WriteLine("Максимальное число: " + max);
 
 
+//решение еще одно 
+// int i = 0;
+// int maxNumbers = -2147000000;
+// while (i < 3)
+// {
+//     Console.Write("Введите число: ");
+//     int n = Convert.ToInt32(Console.ReadLine());
+//     if (maxNumbers < n)
+//         maxNumbers = n;
+    
+//     i++;
+// }
+// Console.Write(maxNumbers);
+
+//и еще одно
+// int c = Convert.ToInt32(Console.ReadLine());
+// int maxNumbers = a;
+// if (maxNumbers < b)
+//     maxNumbers = b;
+// if (maxNumbers < c)
+//     maxNumbers = c;
+
+// Console.Write(maxNumbers);
+
+
 
 //хотел сделать через массив но пока не умею) обязательно потом сделаю
 // int[] num = new Int32[] { a, b, c};
