@@ -8,40 +8,47 @@ Console.Clear();
 
 Console.WriteLine("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
-while (n < 100)
+if (n < 100)
 {
-    Console.Write("Третьей цифры нет ");
-    break;    
+    Console.Write("Третьей цифры нет ");   
 }
-if (n > 99 && n < 1000)
-{
-    Console.Write(n % 10);
-}
-else if (n > 999 && n < 10000)
-{
-    Console.Write((n / 10) % 10);
-}
-else if (n > 9999 && n < 100000)
-{
-    Console.Write((n / 100) % 10);
-}
-else if (n > 99999 && n < 1000000)
-{
-    Console.Write((n / 1000) % 10);
-}
-else if (n > 999999 && n < 10000000)
-{
-    Console.Write((n / 10000) % 10);
-}
-else if (n > 9999999 && n < 100000000)
-{
-    Console.Write((n / 100000) % 10);
-}
-else if (n > 99999999 && n < 1000000000)
-{
-    Console.Write((n / 1000000) % 10);
-}
-else if (n > 999999999 && n < 2147483647) // 2147483647 (2 31 - 1), число Мерсенна — то есть самое большое целое число, которое можно записать в 32 бита.
-{
-    Console.Write((n / 10000000) % 10);
-}
+while(n >= 1000) 
+{ 
+    n = n / 10; 
+} 
+int n1 = n % 10; 
+Console.Write(n1);
+
+
+// if (n > 99 && n < 1000)
+// {
+//     Console.Write(n % 10);
+// }
+// else if (n > 999 && n < 10000)
+// {
+//     Console.Write((n / 10) % 10);
+// }
+// else if (n > 9999 && n < 100000)
+// {
+//     Console.Write((n / 100) % 10);
+// }
+// else if (n > 99999 && n < 1000000)
+// {
+//     Console.Write((n / 1000) % 10);
+// }
+// else if (n > 999999 && n < 10000000)
+// {
+//     Console.Write((n / 10000) % 10);
+// }
+// else if (n > 9999999 && n < 100000000)
+// {
+//     Console.Write((n / 100000) % 10);
+// }
+// else if (n > 99999999 && n < 1000000000)
+// {
+//     Console.Write((n / 1000000) % 10);
+// }
+// else if (n > 999999999 && n < 2147483647) // 2147483647 (2 31 - 1), число Мерсенна — то есть самое большое целое число, которое можно записать в 32 бита.
+// {
+//     Console.Write((n / 10000000) % 10);
+// }

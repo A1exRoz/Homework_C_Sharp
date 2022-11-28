@@ -4,21 +4,18 @@
 
 Console.Clear();
 
+Console.Write("Ведите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
-int max1 = Convert.ToInt32(0);
-int max2 = Convert.ToInt32(0);
+int maxFirst = n, maxSecond = -1;
 while (n != 0)
 {
-    if (n > max1)
-    {
-        max2 = max1;
-        max1 = n;
-    }
-    else if (n > max2);
-    {
-        max2 = n;
-    }
     n = Convert.ToInt32(Console.ReadLine());
+    if (n > maxFirst)
+    {
+        maxSecond = maxFirst;
+        maxFirst = n;
+    }
+    else if (n > maxSecond)
+        maxSecond = n;
 }
-Console.Write("Второе максимальное число: ");
-Console.WriteLine(max2);
+Console.WriteLine(maxSecond);
