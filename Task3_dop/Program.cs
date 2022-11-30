@@ -8,16 +8,14 @@ while (n < 3 || n > 1000)
     n = Convert.ToInt32(Console.ReadLine());
 }
 int[] a = new int[n];
-int x = a.Length;
 Console.WriteLine("Введите колличество ягод на каждом кусте: ");
+for (int i = 0; i < n; i++)
+    a[i] = Convert.ToInt32(Console.ReadLine());
 
-for (int i = 0; i < x; i++)
-    a[i] = int.Parse(Console.ReadLine());
-int i = 0;
 int max = 0;
-if (i <= x - 1) 
+int i = 0;
+if (i <= n - 1) 
 { 
     (a[i] + a[i + 1] + a[i + 2]) > max;
     sum > max;
-    
 }
