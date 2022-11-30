@@ -29,7 +29,7 @@ for (int i = 0; i < n - 2; i++)
 if (a[0] + a[n - 1] + a[n - 2] > maxsum)
     maxsum = a[0] + a[n - 1] + a[n - 2];
 
-else if (a[0] + a[1] + a[-1] > maxsum)
+if (a[0] + a[1] + a[-1] > maxsum)
     maxsum = a[0] + a[1] + a[n - 1];
 
 Console.Write(maxsum);
