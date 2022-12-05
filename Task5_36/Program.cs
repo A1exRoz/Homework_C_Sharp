@@ -12,13 +12,10 @@ void InputArray(int[] array)
 
 int ReleaseArray(int[] array)
 {
-    int count = 0;
-    for (int i = 0; i < array.Length; i++)
-    {
-        if (array[i] % 2 == 0)
-            count++;
-    }
-    return count;
+    int sum = 0;
+    for (int i = 1; i < array.Length; i += 2)
+        sum += array[i];
+    return sum;
 }
 
 
