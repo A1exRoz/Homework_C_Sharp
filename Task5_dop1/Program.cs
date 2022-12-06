@@ -40,3 +40,4 @@ int[] array = new int[n];
 InputArray(array);
 Console.WriteLine($"[{string.Join("  ", array)}]");
 ReleaseArray(array);
+// Console.WriteLine(result(array, sum3, sum4));
