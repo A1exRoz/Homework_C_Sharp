@@ -3,12 +3,17 @@
 // [3 7 22 2 78] -> 76
 
 
+// void InputArray(double[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//         array[i] = new Random().NextDouble(0, 10);
+// }
+
 void InputArray(double[] array)
 {
     for (int i = 0; i < array.Length; i++)
-        array[i] = new Random().Next(0, 10);
-}
-
+    array[i] = Math.Round(new Random().NextDouble() * (20 - 10) + 10, 2);
+}   
 
 double ReleaseArray(double[] array)
 {
