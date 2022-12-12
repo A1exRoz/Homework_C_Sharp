@@ -29,3 +29,28 @@ int[] array = new int[m];
 InputArray(array);
 Console.WriteLine($"Исходный массив: [{string.Join(", ", array)}]");
 Console.WriteLine($"Чисел больше 0: {ReleaseArray(array)}");
+
+
+// Вот так решил Денис на сминаре
+
+// Console.Write("Введите кол-во чисел: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int count = 0;
+// for (int i = 0; i < n; i++)
+// {
+//     if (Convert.ToInt32(Console.ReadLine()) > 0)
+//         count++;
+// }
+// Console.WriteLine(count);
+
+
+// Или вот так
+
+// string[] n = Console.ReadLine().Split(" ");
+// int count = 0;
+// foreach (string i in n)
+// {
+//     if (int.Parse(i) > 0)
+//         count++;
+// }
+// Console.WriteLine(count);
