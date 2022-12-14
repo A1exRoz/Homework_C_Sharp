@@ -13,7 +13,7 @@ void InputMatrix(double[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = Math.Round(new Random().NextDouble() * (20 - 10) + 10, 2); // new Random().Next(0, 11);
+            matrix[i, j] = Math.Round(new Random().NextDouble() * (20 - 10) + 10, 2);
             Console.Write($"{matrix[i, j]} \t");
         }
         Console.WriteLine();
