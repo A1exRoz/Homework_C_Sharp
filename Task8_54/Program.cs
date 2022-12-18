@@ -17,7 +17,7 @@ void inputMatrix(int[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = new Random().Next(1, 11); // [1, 10]
+            matrix[i, j] = new Random().Next(1, 11);
             Console.Write($"{matrix[i, j]} \t");
         }
         Console.WriteLine();
