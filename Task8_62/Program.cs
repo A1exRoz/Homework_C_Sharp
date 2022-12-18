@@ -12,21 +12,7 @@ void arraySpiral(int[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            int temp = 1;
-            while (temp <= matrix.GetLength(0) * matrix.GetLength(1))
-            {
-            matrix[i, j] = temp;
-            temp++;
-            if (i <= j + 1 && i + j < matrix.GetLength(1) - 1)
-                j++;
-            else if (i < j && i + j >= matrix.GetLength(0) - 1)
-                i++;
-            else if (i >= j && i + j > matrix.GetLength(1) - 1)
-               j--;
-            else
-                i--;
-            }
-            Console.Write($" {matrix[i,j]} \t");
+
         }
     }
 }
@@ -34,3 +20,4 @@ void arraySpiral(int[,] matrix)
 Console.Clear();
 int[,] matrix = new int[4, 4];
 arraySpiral(matrix);
+
